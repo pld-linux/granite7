@@ -2,13 +2,13 @@
 Summary:	An extension of GTK 4
 Summary(pl.UTF-8):	Rozszerzenie GTK 4
 Name:		granite7
-Version:	7.3.0
+Version:	7.4.0
 Release:	1
 License:	GPL v3
 Group:		X11/Libraries
 #Source0Download: https://github.com/elementary/granite/releases
 Source0:	https://github.com/elementary/granite/archive/%{version}/granite-%{version}.tar.gz
-# Source0-md5:	55fccf0b3670c68d8b150bab69e6da62
+# Source0-md5:	df9f6f02220ed527f38c0a7ca173169b
 URL:		http://elementaryos.org/
 BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.50
