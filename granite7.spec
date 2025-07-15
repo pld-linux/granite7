@@ -72,16 +72,16 @@ API języka Vala do biblioteki libgranite.
 %setup -q -n granite-%{version}
 
 %build
-%meson build \
+%meson \
 	--default-library=shared \
 	-Ddocumentation=true
 
-%ninja_build -C build
+%meson_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%ninja_install -C build
+%meson_install
 
 # not supported(?)
 %{__rm} -r $RPM_BUILD_ROOT%{_iconsdir}/hicolor/48x48@2
