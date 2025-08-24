@@ -9,7 +9,7 @@ Group:		X11/Libraries
 #Source0Download: https://github.com/elementary/granite/releases
 Source0:	https://github.com/elementary/granite/archive/%{version}/granite-%{version}.tar.gz
 # Source0-md5:	df9f6f02220ed527f38c0a7ca173169b
-URL:		http://elementaryos.org/
+URL:		https://elementary.io/
 BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.50
 BuildRequires:	gobject-introspection-devel
